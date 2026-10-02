@@ -175,7 +175,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                       child:
                       DropdownButtonFormField<
                           ExpenseCategory>(
-                        value: _selectedCategory,
+                        initialValue: _selectedCategory,
                         decoration:
                         const InputDecoration(
                           labelText: 'Category',
